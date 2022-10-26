@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Happy Birthday!!</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            background:#5686ce;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:20px;
+            height:90vh;
+            
+        }
+        .fontchange{
+            font-family: 'Fasthand', cursive;
+        }
+        .container{
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+            margin:auto;
+            margin-top:60px;
+            background: #ffffff;
+            height:80vh;
+            width:85vw;
+            border-radius:10px;;
+            
+        }
+        .card{
+            height:80vh;
+            width:85vw;
+            align-items:center;
+            display:flex;
+            padding-bottom: 60px;
+        }
+        .header{
+            height:70px;
+        }
+        .header img{
+            height:60px;
+            width:85px;
+        }
+        .header .logo1{
+            float:left;
+            padding-left: 10px;
+        }
+        .header .logo2{
+            float:right;
+            height:50px;
+            width:60px;
+            padding-top: 2px;
+            padding-right:10px;
+        }
+        img{
+            height:70%;
+            width:60%; 
+        }
+        .text{
+            padding:30px;
+            width:40%;
+            text-align: center;
+        }
+        .text h3{
+            padding-top:13px;
+            opacity: 0.8;
+            padding-bottom: 12px;;
+        }
+        .footer{
+            margin:0 auto;
+            padding-top:10px;
+            text-align:center;
+            color:#ffffff;
+        }
+        .footer .heart{
+            color:red;
+        }
+        @media(max-width:1000px){
+            .container{
+                margin-top:45px;
+            }
+            .card{
+                flex-direction: column-reverse;
+            }
+            img{
+                height:50%;
+                width:50%;
+                overflow: hidden;
+            }
+            .text{
+                padding:0;
+                padding-bottom:100px;
+
+            }
+            .text h3{
+                padding:0;
+            }
+            .fontchange{
+                font-size:35px;
+            }
+            h3{
+                font-size: 32px;
+            }
+            .footer{
+                padding:15px 15px;
+            } 
+        }
+        @media(max-width:750px){
+            img{
+                height:50%;
+                width:50%;
+            }
+            .text{
+                font-size: 20px;
+                padding-bottom: 90px;
+            }
+            .fontchange{
+                font-size:30px;
+            }
+            h3{
+                font-size:27px;
+            }
+            .footer{
+                font-size: 18px;
+            }
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./KIIT-University-Logo-e1506355385141-1.jpg" class="logo1" alt="kiitlogo">
+            <img src="https://res.cloudinary.com/dg1nddusb/image/upload/v1666538535/logo_small_1_zgdea5.png" class="logo2" alt="iotlogo">
+        </div>
+        <div class="card">
+            <div class="text">
+                <h1 class="fontchange">Happy Birthday!!</h1>
+                <h3>Anshul Kumar</h3>
+                <p style="font-weight:bold">“The warmest wishes to a great member of our team. May your special day be full of happiness, fun and cheer!”</p>
+    
+            </div>
+            <img src="celebration.gif" alt="birthday">
+        </div>
+    </div>
+    <div class="footer">
+        <p>DL-7 (IoT Lab) School of Computer Engineering Kalinga Institue of Industrial Technology</p>
+        <p>Patia,Bhubaneshwar Odisha,India 751024</p>
+        <p>Automated with <span class="heart">❤ </span>From IoT Lab,Kiit</p>
+    </div>
+    
+    
+</body>
+</html>
